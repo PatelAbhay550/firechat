@@ -147,7 +147,8 @@ const Chatarea = ({ user, selectedUser }) => {
                 : styles["message-received"]
             }`}
           >
-            <p>{`${msg.message} by ${msg.email}`}</p>
+            <p>{`${msg.message} `}</p>
+            <p style={{ fontSize: "8px", color:'#ddd' }}> by ${msg.email}</p>
             <p>
               {msg.timestamp instanceof Object
                 ? timestampToDate(msg.timestamp).toLocaleString()
