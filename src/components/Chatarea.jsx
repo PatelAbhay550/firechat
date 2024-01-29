@@ -149,7 +149,7 @@ const Chatarea = ({ user, selectedUser }) => {
           >
             <p>{`${msg.message} `}</p>
             <p style={{ fontSize: "8px", color:'#555' }}> by {msg.email}</p>
-            <p>
+            <p style={{ fontSize: "8px" }}>
               {msg.timestamp instanceof Object
                 ? timestampToDate(msg.timestamp).toLocaleString()
                 : "Invalid Date"}
