@@ -109,7 +109,10 @@
 }
 @media (max-width: 450px) {
   .sidebar-container {
-    width: 100px;
+    width: 60px;
+    z-index: 88;
+    background-color: #fff;
+    position: fixed;
   }
   .user-details {
     font-size: 10px;
@@ -117,11 +120,18 @@
   }
   .contact-details h4 {
     font-size: 12px;
+    display: none;
   }
   .app-name {
     font-size: 10px;
   }
   .nosel {
     padding-left: 20px;
+  }
+  .chatarea {
+    margin-left: 100px;
+  }
+  .app-name {
+    display: none;
   }
 }
