@@ -140,18 +140,31 @@
     height: 90px;
   }
   .message-received {
-    white-space: nowrap;
+    width: 250px;
   }
   .chatarea-container textarea {
-    width: 62%;
-    padding: 5px 20px;
+    width: 70%;
+    padding: 12px 20px;
+    border: 1px solid #25d366;
+  }
+  .chatarea-container textarea:focus {
+    outline: 1px solid #25d366;
+    border: #25d366;
+  }
+  .chat-area {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+  .top-bar {
+    position: fixed;
+    top: 0;
+    background-color: #f8f8f8;
+    width: calc(100% - 30%);
   }
   .message-sent {
     max-width: 200px;
   }
-  .message-received p:first-child {
-    width: max-content;
-  }
+
   .message-received {
     max-width: max-content;
   }
