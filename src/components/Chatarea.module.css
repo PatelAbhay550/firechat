@@ -142,4 +142,13 @@
   .chatarea-container textarea {
     width: 60%;
   }
+  .message-sent {
+    max-width: 200px;
+  }
+  .message-received p:first-child {
+    width: max-content;
+  }
+  .message-received {
+    max-width: max-content;
+  }
 }
