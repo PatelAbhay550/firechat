@@ -10,7 +10,7 @@
   padding: 15px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #4caf50;
 }
 
 .profile-info {
@@ -78,7 +78,7 @@
   bottom: 0;
   padding: 15px;
   width: 80%;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #4caf50;
   background-color: #fff;
 }
 .chatarea-container textarea {
@@ -136,11 +136,15 @@
   padding: 10px;
 }
 @media (max-width: 450px) {
+  .message-input {
+    height: 90px;
+  }
   .message-received {
     white-space: nowrap;
   }
   .chatarea-container textarea {
-    width: 60%;
+    width: 62%;
+    padding: 5px 20px;
   }
   .message-sent {
     max-width: 200px;
