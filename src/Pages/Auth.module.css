@@ -1,0 +1,66 @@
+/* Auth.module.css */
+
+.authContainer {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 100px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputField {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.intro {
+  font-size: 28px;
+}
+.btn {
+  padding: 5px 75px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+}
+.authContainer input {
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 300px;
+}
+.toggleButton {
+  text-decoration: underline;
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.googleButton {
+  background-color: #fff;
+  color: #1348b9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .authContainer {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .authContainer {
+    padding: 15px;
+  }
+}
