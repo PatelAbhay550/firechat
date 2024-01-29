@@ -160,19 +160,7 @@ const Chatarea = ({ user, selectedUser }) => {
 
       {/* Message Input */}
       <div className={styles["message-input"]}>
-        <div className={styles["icons-container"]}>
-          <label htmlFor="imageInput" className={styles["icon"]}>
-            <BsImage />
-            <input
-              id="imageInput"
-              type="file"
-              accept="image/*"
-              onChange={handleImageChange}
-              style={{ display: "none" }}
-            />
-          </label>
-          <GrEmoji className={styles["icon"]} />
-        </div>
+        
         <textarea
           placeholder="Type a message..."
           onKeyDown={handleEnterKeyPress}
