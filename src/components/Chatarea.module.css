@@ -62,8 +62,13 @@
 
 .chat-area {
   flex: 1;
-  margin-bottom: 50px;
   overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 50px;
+
   padding: 15px;
   min-height: 100vh;
   background-color: #f8f8f8;
@@ -110,13 +115,17 @@
 }
 
 .message-sent {
-  /* Example color for sent messages */
   align-self: flex-end;
+  border-radius: 8px 8px 0px 8px;
+  background-color: #4caf50; /* Green color for sent messages */
+  color: white;
 }
 
 .message-received {
-  /* Example color for received messages */
+  border-radius: 8px 8px 8px 0px;
   align-self: flex-start;
+  background-color: #ddd; /* Grey color for received messages */
+  color: black;
 }
 
 .message-sent p,
